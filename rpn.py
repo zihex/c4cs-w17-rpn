@@ -3,7 +3,8 @@ import operator
 
 operators = {
     '+' : operator.add,
-    '-' : operator.sub
+    '-' : operator.sub,
+    '^' : operator.pow
     }
 
 def calculate(arg):
